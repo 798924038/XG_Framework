@@ -1,0 +1,18 @@
+{
+    "Lua.diagnostics.globals": [
+        "hook",
+        "cj",
+        "japi",
+        "mt",
+        "xconst",
+        "timer",
+        "sync"
+    ],
+    "Lua.workspace.library": [
+        "${3rd}/Jass/library"
+    ],
+    "Lua.workspace.checkThirdParty": false,
+    "Lua.diagnostics.disable": [
+        "unbalanced-assignments"
+    ]
+}
