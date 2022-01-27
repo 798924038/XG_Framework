@@ -54,7 +54,10 @@ function table.copy(t, list)
     if type(t)~='table' or type(list)~='table'then return end --检验参数类型
     local max_list = table.len(list)
     local max_t = table.len(t)
-
+    for i_list,v_list in ipairs(list) do
+        max_t = max_t + 1
+        t[ max_t ] = list[i_list]
+    end
 end
 
 --取表长度
